@@ -138,15 +138,15 @@
       <sysproperty key="proai.driverClassName" 
                    value="proai.driver.impl.OAIDriverImpl"/>
       <sysproperty key="proai.driverPollSeconds" value="120"/>
-<!--
-      <sysproperty key="proai.db.url" value="jdbc:mysql://localhost/proai?useUnicode=true&amp;characterEncoding=UTF-8&amp;autoReconnect=true"/>
+      <sysproperty key="proai.db.url" value="jdbc:mysql://localhost/oaipmh?useUnicode=true&amp;characterEncoding=UTF-8&amp;autoReconnect=true"/>
       <sysproperty key="proai.db.driverClassName" value="com.mysql.jdbc.Driver"/>
+<!--
 
       <sysproperty key="proai.db.url" value="jdbc:postgresql://localhost/proai"/> 
       <sysproperty key="proai.db.driverClassName" value="org.postgresql.Driver"/>
--->
       <sysproperty key="proai.db.url" value="jdbc:mckoi:local://${basedir}/build/test/mckoi/mckoi.conf?create_or_boot=true"/> 
       <sysproperty key="proai.db.driverClassName" value="com.mckoi.JDBCDriver"/>
+-->
 
       <sysproperty key="proai.db.username" value="proai"/>
       <sysproperty key="proai.db.password" value="proai"/>
